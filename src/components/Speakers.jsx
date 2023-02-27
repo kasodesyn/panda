@@ -14,8 +14,8 @@ import Image6 from '@/images/avatars/image-6.png'
 
 const days = [
   {
-    name: 'NFT V1：the GPT Users',
-    date: '2023Q1',
+    name: 'Panda on the voyage',
+    date: 'GOOD PANDAS',
     dateTime: '2023-03-01',
     speakers: [
       {
@@ -52,8 +52,8 @@ const days = [
     ],
   },
   {
-    name: 'NFT V2：the GPT Bot',
-    date: '2023Q2',
+    name: 'Enemies of Voyager Panda',
+    date: 'BAD PANDAS',
     dateTime: '2023-06-01-20:00',
     speakers: [
       {
@@ -88,45 +88,7 @@ const days = [
         image: Image6,
       },
     ],
-  },
-  {
-    name: 'Chat/Play to Earn',
-    date: '2023Q2',
-    dateTime: '2023-06-01-20:15',
-    speakers: [
-      {
-        name: 'Aikin',
-        role: 'Founder of ChatFi',
-        image: Image1,
-      },
-
-      {
-        name: 'Davis',
-        role: 'Co-Founder & Designer',
-        image: Image2,
-      },
-      {
-        name: 'Quay',
-        role: 'Co-Founder & CTO',
-        image: Image3,
-      },
-      {
-        name: 'Ronen',
-        role: 'Partner & Operation',
-        image: Image4,
-      },
-      {
-        name: 'Alan',
-        role: 'Partner & Produce Manager',
-        image: Image5,
-      },
-      {
-        name: 'Johnson',
-        role: 'Partner & Contract Engineer',
-        image: Image6,
-      },
-    ],
-  },
+  }
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -172,7 +134,7 @@ export function Speakers() {
       aria-labelledby="speakers-title"
       className="py-20 sm:py-32"
     >
-      <ImageClipPaths id={id} />
+      {/* <ImageClipPaths id={id} /> */}
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2

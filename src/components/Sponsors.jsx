@@ -2,15 +2,12 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 
-import logo1 from '@/images/logos/logo-1.svg'
-import logo2 from '@/images/logos/logo-2.svg'
-import logo3 from '@/images/logos/logo-3.svg'
-import logo4 from '@/images/logos/logo-4.svg'
-import logo5 from '@/images/logos/logo-5.svg'
-import logo6 from '@/images/logos/logo-6.svg'
-import logo7 from '@/images/logos/logo-7.svg'
-import logo8 from '@/images/logos/logo-8.svg'
-import logo9 from '@/images/logos/logo-9.svg'
+import logo1 from '@/images/logos/logo-1.png'
+import logo2 from '@/images/logos/logo-2.png'
+import logo3 from '@/images/logos/logo-3.png'
+import logo4 from '@/images/logos/logo-4.png'
+import logo5 from '@/images/logos/logo-5.png'
+import logo6 from '@/images/logos/logo-6.png'
 
 const sponsors = [
   { name: '', logo: logo1 },
@@ -18,10 +15,7 @@ const sponsors = [
   { name: '', logo: logo3 },
   { name: '', logo: logo4 },
   { name: '', logo: logo5 },
-  { name: '', logo: logo6 },
-  { name: '', logo: logo7 },
-  { name: '', logo: logo8 },
-  { name: '', logo: logo9 },
+  { name: '', logo: logo6 }
 ]
 
 export function Sponsors() {

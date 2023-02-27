@@ -176,7 +176,7 @@ export function Hero() {
               // ['Mint Time', '2023/02/19 20:00(SGT)'],
               // ['Quantity' + emoji(), Controller()],
               // ['Mint Cost', Mint()],
-              ['Mint', 'SOLD OUT'],
+              // ['Mint', 'SOLD OUT'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="text-black-600 font-mono text-sm">{name}</dt>
