@@ -154,7 +154,7 @@ export function Hero() {
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
       </div>
       <Container className="relative">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl">
+        <div className="max-w-2xl lg:max-w-4xl">
           <h1 className="text-black-600 pixelfont font-display text-5xl font-bold tracking-tighter sm:text-7xl">
             GET ONE “Voyager Panda ”NFT!
           </h1>
