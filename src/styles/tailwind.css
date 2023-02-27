@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: pixelFont;
+  src: url('./FredokaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: normalFont;
+  src: url('./DMSans-Regular.ttf');
+}
+
+
+* {
+  font-family: normalFont;
+}
+
+.pixelfont{
+  font-family: pixelFont;
+  font-weight: 300;
+}
