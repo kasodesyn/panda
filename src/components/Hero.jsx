@@ -166,7 +166,7 @@ export function Hero() {
       </div>
       <Container className="relative">
         <div className="max-w-2xl lg:max-w-4xl">
-          <h1 className="text-black-600 pixelfont font-display text-5xl font-bold tracking-tighter sm:text-7xl">
+          <h1 className="text-black-600 pixelfont font-display text-5xl font-bold tracking-tighter sm:text-5xl">
             GET ONE “Voyager Panda ”NFT!
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight ">
