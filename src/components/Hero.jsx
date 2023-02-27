@@ -2,6 +2,8 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { useEffect, useState } from 'react'
 import { ethers } from 'ethers'
+import Image from 'next/image'
+import backgroundImage from '@/images/background.png'
 
 // import {parseEther} from "ethers/utils"
 
@@ -150,8 +152,17 @@ export function Hero() {
   return (
     <div className="relative pt-10 pb-20 sm:py-24">
       <div className="absolute inset-x-0 -top-48 -bottom-14 overflow-hidden">
-        <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
+        <Image
+          className="absolute top-0 left-0 right-0 "
+          src={backgroundImage}
+          alt=""
+          // width={918}
+          // height={1495}
+          priority
+          unoptimized
+        />
+        {/* <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" /> */}
       </div>
       <Container className="relative">
         <div className="max-w-2xl lg:max-w-4xl">

@@ -22,7 +22,7 @@ export function Profile() {
   return (
     <>
       {isConnected2 ? (
-        <button onClick={() => disconnect()}>
+        <button className="text-black" onClick={() => disconnect()}>
           {address
             ? address.slice(0, 5) +
               '...' +
@@ -31,6 +31,7 @@ export function Profile() {
         </button>
       ) : (
         <button
+          className="text-black"
           onClick={() => {
             connect()
           }}
@@ -50,7 +51,7 @@ export function Header() {
           <Logo className="h-12 w-auto text-slate-900" />
         </div>
         <div className="mt-5 sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button>
+          <Button className="bg-white">
             <Profile></Profile>
           </Button>
         </div>

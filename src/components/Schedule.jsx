@@ -3,7 +3,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background.jpg'
+
 
 const schedule = [
   {
